@@ -43,14 +43,6 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-## 🛠️ Important Links & Tools:
-
-- **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
-- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
-- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
-
----
 ## 📂 Repository Structure
 
 ```
@@ -97,16 +89,26 @@ sql-data-warehouse-project
 |   LICENSE                                 # License information for the repository
 |   README.md                               # Project overview and instructions
 ```
+
 ---
 
-# Simple Step-by-Step Instructions - SQL Data Warehouse Project
+## 🛠️ Important Tools:
+
+- **[Datasets](datasets/):** Access to the project dataset (csv files).
+- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
+- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
+- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
+
+---
+
+# Simple How to Use Step-by-Step Instructions
 
 ## ✅ Quick Setup & Run
 
 ### Step 1: Install Required Tools
 
-- **SQL Server (Express, Standard, etc.) is the recommended tool** for this project.
-- You can use any Relational Database Management System (RDBMS) you prefer, but you may need to modify some parts of the scripts if your environment is different. Some scripts might not run perfectly on other SQL platforms without changes.
+- **SQL Server** (Express, Standard) is the **recommended tool** for this project.
+- You can use any _Relational Database Management System_ (RDBMS) you prefer, but you may need to modify some parts of the scripts if your environment is different. Some scripts might not run perfectly on other SQL platforms without changes.
 - For easiest setup, download and install:
   - **SQL Server Express** (free): https://www.microsoft.com/en-us/sql-server/sql-server-downloads
   - **SQL Server Management Studio (SSMS)**: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
