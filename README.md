@@ -1,8 +1,8 @@
 # Data Warehouse Project
 
-Welcome to the **Data Warehouse Project** repository! 
+Welcome to the **SQL Data Warehouse Project** repository! 
 
-This project demonstrates a comprehensive data warehousing solution, from building a data warehouse to generating actionable insights. 
+This repository contains a comprehensive data warehousing solution built with SQL Server, demonstrating ETL processes, dimensional modeling, testing and analytics queries for transforming raw data into actionable business insights.
  
 ---
 
@@ -105,7 +105,10 @@ sql-data-warehouse-project
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
+## 🙏 Credits
+
+Special thanks to Baraa Khatib Salkin (also known as [Data With Baraa](https://www.youtube.com/@DataWithBaraa)) for this project idea. This project helped me to learn and understand how to build a Data warehouse from a scratch, how ETL process works and what is dimensional modeling in practise. This experience gives me a solid base and a good starting point for my projects in the future.
+
 ## 🌟 About Me
 
-I am studying for Bachelor's degree in Business Information Technology at University of Applied Sciences and I will specialize in data. 
-**To be continued...**
+I am a student who is currently studying for Bachelor's degree in Business Information Technology at University of Applied Sciences and will specialize in data engineering. 
