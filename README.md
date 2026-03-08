@@ -2,7 +2,7 @@
 
 Welcome to the **SQL Data Warehouse Project** repository! 
 
-This repository contains a comprehensive data warehousing solution built with SQL Server, demonstrating ETL processes, data modeling, testing and analytics queries for transforming raw data into actionable business insights.
+This repository contains a comprehensive data warehousing solution built with SQL Server, demonstrating ETL processes, dimensional modeling, data quality validation and analytics queries for transforming raw data into actionable business insights.
  
 ---
 
