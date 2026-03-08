@@ -166,7 +166,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## 🙏 Credits
 
-Special thanks to Baraa Khatib Salkin (also known as [Data With Baraa](https://www.youtube.com/@DataWithBaraa)) for this project idea. This project helped me to learn and understand how to build a Data warehouse from a scratch, how ETL process works and what is dimensional modeling in practise. This experience gives me a solid base and a good starting point for my projects in the future.
+Special thanks to _Baraa Khatib Salkini_ (also known as [Data With Baraa](https://www.youtube.com/@DataWithBaraa)) for this project idea. This project helped me to learn and understand how to build a Data warehouse from a scratch, how ETL process works and what is dimensional modeling in practise. This experience gives me a solid base and a good starting point for my projects in the future.
 
 ## 🌟 About Me
 
