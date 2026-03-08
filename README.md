@@ -97,6 +97,64 @@ sql-data-warehouse-project
 |   LICENSE                                 # License information for the repository
 |   README.md                               # Project overview and instructions
 ```
+---
+
+# Simple Step-by-Step Instructions - SQL Data Warehouse Project
+
+## ✅ Quick Setup & Run
+
+### Step 1: Install Required Tools
+
+- **SQL Server (Express, Standard, etc.) is the recommended tool** for this project.
+- You can use any Relational Database Management System (RDBMS) you prefer, but you may need to modify some parts of the scripts if your environment is different. Some scripts might not run perfectly on other SQL platforms without changes.
+- For easiest setup, download and install:
+  - **SQL Server Express** (free): https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+  - **SQL Server Management Studio (SSMS)**: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
+
+### Step 2: Clone the Repository
+```bash
+git clone https://github.com/junnuvain10/sql-data-warehouse-project.git
+cd sql-data-warehouse-project
+```
+
+### Step 3: Open the SQL Scripts
+1. Open **SSMS**
+2. Connect to your SQL Server instance
+
+### Step 4: Run Scripts in Order
+
+Execute these SQL scripts in **SSMS** in this exact order:
+
+1. **Create Database & Schemas:**
+   - Open and run: `scripts/init_database.sql`
+
+2. **Create Bronze Layer (Raw Data):**
+   - Open and run: `scripts/bronze_layer/bronze_ddl.sql`
+   - Open and run: `scripts/bronze_layer/proc_load_bronze.sql`
+
+3. **Create Silver Layer (Clean Data):**
+   - Open and run: `scripts/silver_layer/silver_layer_ddl.sql`
+   - Open and run: `scripts/silver_layer/proc_load_silver.sql`
+
+4. **Create Gold Layer (Analytics):**
+   - Open and run: `scripts/gold_layer/gold_ddl.sql`
+
+### Step 5: Verify Everything Works
+Run the quality check scripts:
+- `tests/quality_checks_silver.sql`
+- `tests/quality_checks_gold.sql`
+
+If all scripts run **without errors**, you're done! ✅
+
+---
+
+## 📊 What You Now Have
+
+- **Bronze Layer**: Raw data from CSV files (ERP & CRM)
+- **Silver Layer**: Cleaned and standardized data
+- **Gold Layer**: Ready-to-use analytics tables for reporting
+
+That's it! You can now query the Gold layer for business insights.
 
 ---
 
